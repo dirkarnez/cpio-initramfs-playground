@@ -6,6 +6,7 @@ cpio-initramfs-playground
 
 ### Tutorials
 - [cpio解压initramfs.img - 宅女士 - 博客园](https://www.cnblogs.com/carriezhangyan/p/9407567.html)
+- https://landley.net/writing/rootfs-howto.html
 
 ### Arguments
 - [Linux cpio命令 | 菜鸟教程](https://www.runoob.com/linux/linux-comm-cpio.html)
