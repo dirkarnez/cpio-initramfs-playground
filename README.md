@@ -1,6 +1,9 @@
 cpio-initramfs-playground
 =========================
 
+### Tools
+- [linux/scripts/gen_initramfs_list.sh at master · spotify/linux](https://github.com/spotify/linux/blob/master/scripts/gen_initramfs_list.sh)
+
 ### Tutorials
 - [cpio解压initramfs.img - 宅女士 - 博客园](https://www.cnblogs.com/carriezhangyan/p/9407567.html)
 
