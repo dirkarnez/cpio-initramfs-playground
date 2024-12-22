@@ -20,6 +20,7 @@ find . | cpio -o -H newc | gzip -9 > ../initrd.gz
 ### Tutorials
 - [cpio解压initramfs.img - 宅女士 - 博客园](https://www.cnblogs.com/carriezhangyan/p/9407567.html)
 - https://landley.net/writing/rootfs-howto.html
+- [How to unpack/uncompress and repack/re-compress an initial ramdisk (initrd/initramfs) boot image file on RHEL 5,6 ? - Red Hat Customer Portal](https://access.redhat.com/solutions/24029)
 
 ### Arguments
 - [Linux cpio命令 | 菜鸟教程](https://www.runoob.com/linux/linux-comm-cpio.html)
