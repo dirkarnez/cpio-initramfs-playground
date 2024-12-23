@@ -27,14 +27,6 @@ jobs:
 
     - working-directory: upload-artifact
       run: npm i
-
-    - run: |
-        export INPUT_PATH=./upload-artifact/dist && \
-        export INPUT_NAME=files && \
-        export INPUT_OVERWRITE=true && \
-        echo ok
-        
-    # env 'INPUT_INCLUDE-HIDDEN-FILES=true' node ./upload-artifact/
     
     - uses: fastai/workflows/ssh@master
       with:
