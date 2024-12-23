@@ -8,6 +8,8 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     # - run: |
     #     echo $PATH && \
@@ -15,6 +17,13 @@ jobs:
     #     sudo curl https://github.com/dirkarnez/transfersh/releases/download/v1.0.0/transfersh-v1.0.0-ubuntu-latest.zip -L -O -J && \
     #     sudo unzip transfersh-v1.0.0-ubuntu-latest.zip && \
     #     sudo ls -R
+
+    - uses: actions/checkout@v4
+      with:
+        repository: actions/upload-artifact
+        ref: v4.5.0
+        path: upload-artifact
+        submodules: true
         
     - uses: fastai/workflows/ssh@master
       with:
