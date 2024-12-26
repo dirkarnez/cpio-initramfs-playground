@@ -4,6 +4,10 @@ cpio-initramfs-playground
 ```
 env 'INPUT_INCLUDE-HIDDEN-FILES=true' INPUT_PATH=./upload-artifact/dist node ./upload-artifact/
 ```
+
+### Files
+- https://ftp.debian.org/debian/dists/bookworm/main/installer-armhf/20230607+deb12u8/images/hd-media/initrd.gz
+
 - [Howto unpack, edit and repack initrd.gz - (old)Puppy Linux Discussion Forum](https://oldforum.puppylinux.com/viewtopic.php?t=53019)
 ### Unpack
 ```
