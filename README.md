@@ -1,9 +1,8 @@
 cpio-initramfs-playground
 =========================
-### Upload
+### Upload (`INPUT_NAME=files` && `INPUT_OVERWRITE=true` is hardcorded)
 ```
-export INPUT_PATH=./upload-artifact/dist && export INPUT_NAME=files && export INPUT_OVERWRITE=true
-env 'INPUT_INCLUDE-HIDDEN-FILES=true' node ./upload-artifact/
+env 'INPUT_INCLUDE-HIDDEN-FILES=true' INPUT_PATH=./upload-artifact/dist node ./upload-artifact/
 ```
 - [Howto unpack, edit and repack initrd.gz - (old)Puppy Linux Discussion Forum](https://oldforum.puppylinux.com/viewtopic.php?t=53019)
 ### Unpack
